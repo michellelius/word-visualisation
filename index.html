@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Word Visualization</title>
+  <style>
+    p {
+      text-align: center;
+      color: #000000;
+      font-size: 15px;
+      margin-top: 0px;
+      margin-bottom: 0px;
+    }
+    a {
+      display: block;
+      text-align: center;
+      color: #000000;
+      font-size: 15px;
+      margin: 1px auto;
+      width: fit-content;
+    }
+
+    body {
+    padding: 0;
+    margin: 0;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    flex-direction: column; 
+  }
+
+  #female-cloud, #verbs-cloud, #male-cloud {
+    width: 1200px; 
+    height: 720px; 
+    margin: 10px 0;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+  }
+
+  #female-cloud {
+    background-color: #f7c7e2; /* Light pink */
+  }
+
+  #verbs-cloud {
+    background-color: #f0e68c; /* Light yellow */
+  }
+
+  #male-cloud {
+    background-color: #add8e6; /* Light blue */
+  }
+  </style>
+  <script src="https://d3js.org/d3.v4.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-cloud/1.2.5/d3.layout.cloud.min.js"></script>
+  <script src="https://unpkg.com/rita"></script>
+  <script type = "module" src="source/main.js"></script>
+  <!-- <script  src="code.js"></script> -->
+</head>
+
+<body>
+  <h2>Indicators Used for Global Health Surveys</h2>
+  <p>pink: female indicators, yellow: verb indicators, blue: male indicators</p>
+  <a href="https://github.com/michellelius/data-visualisation">
+    GitHub Full Project
+  </a>
+  <a href="https://www.canva.com/design/DAGXFDqvm4U/WT7QyXbcS40wjokEDEGXBg/edit?utm_content=DAGXFDqvm4U&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton">
+    UML Diagram
+  </a>
+
+  <div id="female-cloud"></div>
+  <div id="verbs-cloud"></div>
+  <div id="male-cloud"></div>
+</body>
+
+</html>

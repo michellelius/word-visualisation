@@ -1,0 +1,7 @@
+References
+[1] J. Ervin, “Chrome warning willReadFrequently attribute set to true,” Stack Overflow, Oct. 17, 2022. https://stackoverflow.com/questions/74101155/chrome-warning-willreadfrequently-attribute-set-to-true
+[2] Wordnik, “Wordnik API Documentation,” Wordnik.com, 2024. https://developer.wordnik.com/docs# (accessed Nov. 21, 2024).
+[3] RiTa, “RiTa Reference,” Rednoise.org, 2024. https://rednoise.org/rita/reference/RiTa/isVerb/index.html (accessed Nov. 21, 2024).
+[4] Datamuse API, “Datamuse API,” www.datamuse.com. https://www.datamuse.com/api/
+[5] N. Sebastian, “How to Use Async/Await in JavaScript – Explained with Code Examples,” freeCodeCamp.org, Dec. 15, 2023. https://www.freecodecamp.org/news/javascript-async-await/
+
